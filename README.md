@@ -16,6 +16,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 * Starship integrations
 * Aliases for auto-correction and fast update of your packages
 * Custom keybindings
+* All directories and files in ls
 
 ## Must have packages
 * Eza
@@ -41,7 +42,19 @@ brew install eza bat autojump zsh-autosuggestions zsh-syntax-highlighting
 brew install llvm qt5 qt6 starship dotnet-sdk 
 ```
 
-## Fast installation (all my packages for config)
+## Fast package installation (all my packages for config)
 ```
 brew install neovim llvm qt6 qt5 eza bat starship autojump zsh-autosuggestions zsh-syntax-highlighting fastfetch btop neofetch
+```
+
+# Config installation
+
+> If you will change paths or do something else you should change this config before installation (Paste only "git clone" and "cd" to your terminal)
+
+```
+cd ~/
+git clone https://github.com/RomanLivik/simple-zsh-config.git
+mv .zshrc zshrc.bak
+cd simple-zsh-config
+cp .zshrc ~/
 ```
