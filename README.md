@@ -53,7 +53,7 @@ brew install neovim llvm qt6 qt5 eza bat starship autojump zsh-autosuggestions z
 
 ```
 cd ~/
-git clone https://github.com/RomanLivik/simple-zsh-config.git
+git clone https://github.com/GadzhievAleksandr/simple-zsh-config
 mv .zshrc zshrc.bak
 cd simple-zsh-config
 cp .zshrc ~/
